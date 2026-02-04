@@ -23,10 +23,14 @@ end
 -- Handles Y movement
 function love.keypressed		(key)
 	if key == "up" then
-	y =
+	y = y - 40 + speed
 
+	elseif key == "down" then
+	y = y + 40 + speed
+ end
 end
 
+end
 
 function love.draw()
 
