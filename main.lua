@@ -19,6 +19,10 @@ x = x -5 + speed
 	end
 
 -- Handles Y movement
+if love.keyboard.isDown("up") then
+y = y - 5 + speed
+
+elseif love.keyboard.isDown("down") then
 
 
 end
