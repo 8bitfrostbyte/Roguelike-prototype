@@ -21,7 +21,9 @@ elseif key == "left" then
 end
 
 -- Handles Y movement
-
+function love.keypressed		(key)
+	if key == "up" then
+	y =
 
 end
 
