@@ -2,7 +2,7 @@ function love.load()
 
 x = 100
 y = 100
-speed = 0.1
+speed = 1
 
 end
 
@@ -11,8 +11,14 @@ end
 function love.update()
 
 -- Handles x movement
-if love.keypressed	("right") then
-x = x + 5 + speed
+function love.keypressed		(key)
+	if key == "right" then
+	x = x + 40 + speed
+
+elseif key == "left" then
+	x = x - 40 + speed
+	end
+end
 
 -- Handles Y movement
 end
