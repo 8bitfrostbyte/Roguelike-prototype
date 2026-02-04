@@ -8,8 +8,9 @@ end
 
 
 function love.update()
-if 
-end
+if love.keyboard.isDown("right") then
+	x = x + 5 + speed
+	end
 end
 
 
