@@ -11,7 +11,7 @@ end
 function love.update()
 
 -- Handles x movement
-if love.keypressed	("right") then
+if love.keyboard.isDown("right") then
 	x = x + 5 + speed
 
 elseif love.keyboard.isDown("left") then
