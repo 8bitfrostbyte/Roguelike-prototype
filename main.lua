@@ -1,7 +1,7 @@
 function love.load()
 
 x = 100
-speed = 2
+speed = 0.1
 
 end
 
