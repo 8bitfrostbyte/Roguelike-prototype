@@ -8,9 +8,8 @@ end
 
 
 function love.update()
-
-x = x + 5 + speed
-
+if 
+end
 end
 
 
