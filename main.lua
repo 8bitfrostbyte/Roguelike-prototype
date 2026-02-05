@@ -42,3 +42,4 @@ function love.keypressed(key)
             y = y + 20
         end
 end
+
