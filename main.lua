@@ -3,6 +3,7 @@ x = 100
 y = 100
 
 
+
 function love.load()
     love.window.setMode(1920, 1080)
 end
