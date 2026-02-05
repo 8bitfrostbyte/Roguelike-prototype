@@ -2,7 +2,7 @@ function love.load()
     -- X and Y Positions
     x = 100
     y = 100
-    love.window.setMode(1920, 1080 {resizeable=true, vsync=0})
+    love.window.setMode(1920, 1080)
 end
 
 
@@ -14,7 +14,7 @@ end
 
 
 function love.draw()
-    love.graphics.rectangle("fill", x, y, 100, 100)
+    love.graphics.rectangle("fill", x, y, 10, 10)
 
 end
 
