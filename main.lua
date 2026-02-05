@@ -2,7 +2,7 @@ function love.load()
     -- X and Y Positions
     x = 100
     y = 100
-    
+    love.window.setMode(1920, 1080 {resizeable=true, vsync=0})
 end
 
 
