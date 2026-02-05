@@ -24,18 +24,18 @@ function love.keypressed(key)
 
     -- X Movement
         if key == "right" then
-            x = x + 100
+            x = x + 20
 
         elseif key == "left" then
-            x = x - 100
+            x = x - 20
         end
         
 
         -- Y Movement
         if key == "up" then
-            y = y - 100
+            y = y - 20
 
         elseif key == "down" then
-            y = y + 100
+            y = y + 20
         end
 end
