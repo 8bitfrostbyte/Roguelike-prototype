@@ -1,2 +1,0 @@
-local Inventory = {}
-inventoryItems = {}
