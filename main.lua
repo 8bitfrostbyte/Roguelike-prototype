@@ -4,7 +4,8 @@ function love.load()
 
     player = {
         x = 100,
-        y = 100
+        y = 100,
+        sprite = love.graphics.newImage("Sprites/Player.png")
     }
 
     
@@ -19,7 +20,9 @@ end
 
 
 function love.draw()
-    love.graphics.rectangle("fill", player.x, player.y, 10, 10)
+love.graphics.setColor(1,1,1)
+
+    love.graphics.draw(player.sprite, player.x, player.y)
 
 end
 
